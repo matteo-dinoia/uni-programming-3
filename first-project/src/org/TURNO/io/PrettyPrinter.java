@@ -6,9 +6,8 @@ import java.util.ArrayList;
 
 public class PrettyPrinter {
 	public static void printPeople(ArrayList<Person> people){
-		System.out.println("--------------------------------------------------------------------------------");
+		String sep = "--------------------------------------------------------------------------------\n";
 		for(Person p : people)
-			System.out.println("Name: " + p.getName() + " | Age: " + p.getAge() + " | Owned Value: " + p.totalValue());
-		System.out.println("--------------------------------------------------------------------------------");
+			System.out.print(sep + "Name: " + p.getName() + " | Age: " + p.getAge() + " | Owned Value: " + p.totalValue() + "\n" + sep);
 	}
 }
