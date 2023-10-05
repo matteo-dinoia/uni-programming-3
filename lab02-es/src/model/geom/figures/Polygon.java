@@ -1,4 +1,4 @@
-package figures;
+package model.geom.figures;
 
 import java.lang.reflect.Field;
 

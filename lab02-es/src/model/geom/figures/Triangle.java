@@ -1,4 +1,4 @@
-package figures;
+package model.geom.figures;
 
 public class Triangle extends Polygon{
 	float base;

@@ -1,4 +1,4 @@
-package figures;
+package model.geom.figures;
 
 public class Parallelogram extends Polygon{
 	float base;
